@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T20:27:58.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="upzgu4j0gkpT_6jr24xI" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T22:01:32.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="GB_9EbemRVh0FLr4Sb69" version="24.3.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="835" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,7 +284,7 @@
         <mxCell id="ZMaXIe3o69BWgWqQXHp7-9" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;fillColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="805.25" y="565" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="ZMaXIe3o69BWgWqQXHp7-12" value="RI-1: Cada médico só pode trabalhar numa clinica por dia&lt;div&gt;RI-2: A alocação de horários têm intervalos de 30 min entre as 8:00 e as 20:00 dos dias uteis&lt;/div&gt;&lt;div&gt;RI-3: A clinica da consulta tem de coincidir com a clinica que o médico está a trabalhar para aquele dia&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZMaXIe3o69BWgWqQXHp7-12" value="RI-1: Cada médico só pode trabalhar numa clinica por dia&lt;div&gt;RI-2: A alocação de horários consiste em intervalos de 30 min compreendido entre as 8:00 e as 20:00 dos dias uteis&lt;/div&gt;&lt;div&gt;RI-3: A clinica da consulta tem de coincidir com a clinica que o médico está a trabalhar para aquele dia&lt;/div&gt;&lt;div&gt;RI-4: Morada é único em clinica&amp;nbsp;&lt;/div&gt;&lt;div&gt;RI-5: Nº de telefone é único em clinica&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="176.25" y="780" width="820" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZMaXIe3o69BWgWqQXHp7-13" value="" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -556,8 +556,20 @@
             <mxPoint x="610" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gccpTJ9Oagj7MpFzM983-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;⬆&amp;nbsp;Tem&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gccpTJ9Oagj7MpFzM983-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;⬆&amp;nbsp;Tem&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="732.75" y="276.5" width="57.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Splh6OJlPzys6Clxbli--3" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;RI-1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630.75" y="442" width="57.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Splh6OJlPzys6Clxbli--8" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;RI-5&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645.0699999999999" y="472.5" width="57.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Splh6OJlPzys6Clxbli--9" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;RI-4&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="579.5699999999999" y="472" width="57.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Splh6OJlPzys6Clxbli--10" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;RI-2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="656" width="57.5" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
